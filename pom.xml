@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>12345</groupId>
+  <artifactId>sampleGit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>sampleGit</name>
+  <description>it is a sample project</description>
+
+
+<dependencies>
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.11</version>
+    <scope>test</scope>
+</dependency>
+
+</dependencies>
+
+  <repositories>
+          <repository>
+          <id>releases</id>
+          <name>releases</name>
+          <url>http://localhost:32770/repository/releases/</url>
+         
+          </repository>
+          
+          
+          <repository>
+          
+          <id>snapshots</id>
+          <name>snapshots</name>
+          <url>http://localhost:32770/repository/snapshots/</url>
+          
+          
+          </repository>
+            </repositories>
+          
+            
+
+
+</project>
